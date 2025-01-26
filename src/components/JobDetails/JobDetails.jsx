@@ -105,7 +105,7 @@ const JobDetails = () => {
             </div>
           </div>
           <div className="bg-[#7E90FE] py-2 text-center mt-3 font-medium rounded">
-            <button onClick={() => handleApply()}>Apply Now</button>
+            <button className="btn" onClick={() => handleApply()}>Apply Now</button>
           </div>
           <ToastContainer></ToastContainer>
         </div>

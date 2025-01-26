@@ -1,5 +1,4 @@
 
-import bannerImage from '../../assets/media/images/user.png'
 
 const Banner = () => {
     return (
@@ -15,7 +14,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={bannerImage} alt="" />
+                    <img src="../../assets/media/images/user.png" alt="" />
                 </div>
             </div>
         </div>
