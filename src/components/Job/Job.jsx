@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 const Job = ({ feature }) => {
   const {
     id,
@@ -25,8 +25,8 @@ const Job = ({ feature }) => {
             <div className="border rounded px-4 py-1 text-blue-300 font-bold">{job_type}</div>
           </div>
           <div className="flex mb-1">
-            <div className="flex gap-1"><span><img src="/src/assets/media/icons/Location2.png" alt="" /></span>{location}</div>
-            <div className="flex gap-1"><span ><img src="/src/assets/media/icons/money.png" alt="" /></span>Salary: {salary}</div>
+            <div className="flex gap-1"><span><img src="/assets/media/icons/location2.png" alt="" /></span>{location}</div>
+            <div className="flex gap-1"><span ><img src="/assets/media/icons/money.png" alt="" /></span>Salary: {salary}</div>
           </div>
           <div className="card-actions">
             <Link to={`/job/${id}`}><button className='btn bg-[#7E90FE]'>View Details</button></Link>
@@ -36,5 +36,7 @@ const Job = ({ feature }) => {
     </div>
   );
 };
-
+Job.propTypes={
+  feature:PropTypes.object.isRequired
+}
 export default Job;

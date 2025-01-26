@@ -54,7 +54,7 @@ const JobDetails = () => {
               <div className="mt-3 mb-3">
                 <div className="flex gap-2 mb-2">
                   <span>
-                    <img src={"/src/assets/media/icons/money.png"} alt="" />
+                    <img src={"/assets/media/icons/money.png"} alt="" />
                   </span>
                   <p>
                     <span className="font-bold">Salary: </span>
@@ -63,7 +63,7 @@ const JobDetails = () => {
                 </div>
                 <div className="flex gap-2">
                   <span>
-                    <img src={"/src/assets/media/icons/calendar.png"} alt="" />
+                    <img src={"/assets/media/icons/calendar.png"} alt="" />
                   </span>
                   <p>
                     <span className="font-bold">Job Title: </span>
@@ -77,7 +77,7 @@ const JobDetails = () => {
             <div>
               <div className="flex gap-2 mb-3 mt-3">
                 <span>
-                  <img src={"/src/assets/media/icons/phone.png"} alt="" />
+                  <img src={"/assets/media/icons/phone.png"} alt="" />
                 </span>
                 <p>
                   <span className="font-bold">Phone: </span>
@@ -86,7 +86,7 @@ const JobDetails = () => {
               </div>
               <div className="flex gap-2 mb-3">
                 <span>
-                  <img src={"/src/assets/media/icons/email.png"} alt="" />
+                  <img src={"/assets/media/icons/email.png"} alt="" />
                 </span>
                 <p>
                   <span className="font-bold">Email: </span>
@@ -95,7 +95,7 @@ const JobDetails = () => {
               </div>
               <div className="flex gap-2">
                 <span>
-                  <img src={"/src/assets/media/icons/location2.png"} alt="" />
+                  <img src={"/assets/media/icons/location2.png"} alt="" />
                 </span>
                 <p>
                   <span className="font-bold">Address: </span>
