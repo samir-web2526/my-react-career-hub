@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 const AppliedJob = ({ job }) => {
   console.log(job);
   const {
@@ -57,5 +57,7 @@ const AppliedJob = ({ job }) => {
     </div>
   );
 };
-
+AppliedJob.propTypes ={
+  job: PropTypes.object.isRequired
+}
 export default AppliedJob;

@@ -1,5 +1,5 @@
 
-
+import PropTypes from 'prop-types';
 const JobCategoy = ({category}) => {
 
     return (
@@ -10,5 +10,7 @@ const JobCategoy = ({category}) => {
         </div>
     );
 };
-
+JobCategoy.propTypes={
+    category:PropTypes.object.isRequired
+}
 export default JobCategoy;
